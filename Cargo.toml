@@ -1,0 +1,15 @@
+[package]
+name = "from-enum"
+version = "0.1.1"
+authors = ["John Peel <john@dgby.org>"]
+categories = ["no-std"]
+description = "Provides a derive proc macro for deriving From on enums"
+repository = "https://github.com/JohnPeel/from-enum"
+documentation = "https://docs.rs/from-enum/latest/from-enum"
+edition = "2021"
+keywords = ["from", "derive"]
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+from-enum-derive = { path = "from-enum-derive", version = "0.1.1" }
